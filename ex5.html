@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 05</title>
+</head>
+<body>
+    <h1>menu</h1>
+    <tr>
+        <th>Hot dog R$ 1,00</th>
+        <th>Hambúrguer R$ 1,30</th>
+        <th>Cheeseburguer R$ 1,50</th>
+        <th>Refrigerante em lata R$ 1,00</th>
+        <th>Batatas fritas R$ 0,80<br><br></th>
+    </tr>
+
+    <script>
+       let nomecliente = prompt("Digite o seu nome cliente: ")
+       let hotdog = prompt("Digite a quantidade de hotdog: ")
+       let Hambúrguer = prompt("Digite a quantidade de Hambúrguer: ")
+       let Cheeseburguer = prompt("Digite a quantidade de Cheeseburguer: ")
+       let Refrigerante = prompt("Digite a quantidade de Refrigerante: ")
+       let Batatas = prompt("Digite a quantidade de Batatas fritas: ")
+
+
+       let hot = Number(hotdog)* 1.00
+       let ham = Number(Hambúrguer)* 1.30
+       let cheese = Number(Cheeseburguer)* 1.50
+       let refri = Number(Refrigerante)* 1.00
+       let batata = Number(Batatas)* 0.80
+
+       let pedido = hot + ham + cheese + refri + batata
+
+       document.write(nomecliente + ' esse foi o total da sua compra: ' + pedido)
+
+
+
+
+
+
+    </script>
+
+</body>
+</html>

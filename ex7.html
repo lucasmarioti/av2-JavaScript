@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valor do seu produto</title>
+</head>
+<body>
+<script>
+
+let produto = prompt ('Digite o nome do seu produto.');
+let custo = prompt ('Digite o custo de fabrica do seu produto.');
+
+
+let imposto = ((Number(custo))) * 1.05 ;
+let distribuidor = ((Number(imposto))) * 1.04 ; 
+
+
+
+window.document.write( Atualmente a taxa de contribuição de imposto está em 5% e a do distribuidor é de 4%,
+sendo um juro composto.</br>);
+window.document.write( O valor final do produto ${produto} , será de R$: ${distribuidor.toFixed(2)} </br>);
+
+
+
+
+</script>
+</body>
+</html>

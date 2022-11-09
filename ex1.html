@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas</title>
+</head>
+<body>
+<script>
+
+let Nome = prompt ('Digite seu nome.');
+let N1 = prompt ('Digite sua primeira nota.');
+let N2 = prompt ('Digite a sua segunda nota.');
+let N3 = prompt ('Digite a sua terceira nota.');
+let disc = prompt ('Digite o nome da sua disciplina')
+let turma = prompt ('Qual o numero da turma')
+
+let media = (( Number(N1) + Number(N2) + Number(N3))) /3;
+
+
+window.document.write( `Nome: ${Nome} </br>`);
+window.document.write( `Nota 1: ${N1} </br>`);
+window.document.write( `Nota 2: ${N2} </br>`);
+window.document.write( `Nota 3: ${N3} </br>`);
+window.document.write(` Sua disciplina: ${disc} </br>`);
+window.document.write( `Sua turma: ${turma} </br>`);
+window.document.write( `Sua média: ${media} </br>`);
+
+
+</script>
+</body>
+</html>
